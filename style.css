@@ -1,0 +1,94 @@
+.containerresult {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+  width: 700px;
+}
+.containera {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.containerq {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+  width: 500px;
+}
+
+body {
+  background-color: #D3F0FF;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+P {
+  font-family: 'Courier New';
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a.button:hover{
+     background: #E9E9E9;
+}
+.buttonmain {
+  background-color: #ffffff00;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#rad {
+    margin:4px;
+}
+
+#rad label {
+    width:40px;
+    margin:0px;
+    overflow:auto;
+}
+
+#rad label span {
+    text-align:center;
+    font-size: 32px;
+    padding:20px 20px;
+    display:block;
+    background-color: #FFFFFF
+}
+#rad label input {
+    position:fixed;
+    top:-20px;
+}
+#rad input:checked + span {
+    background-color:#AFCBDC;
+    color:#F7F7F7;
+}
